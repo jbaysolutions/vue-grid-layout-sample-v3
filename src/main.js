@@ -1,4 +1,7 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 
-createApp(App).mount('#app')
+import VueGridLayout from 'vue-grid-layout'
+
+createApp(App).use(VueGridLayout).mount('#app')
+// createApp(App).mount('#app')
