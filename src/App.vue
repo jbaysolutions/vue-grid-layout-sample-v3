@@ -16,7 +16,7 @@
             <button @click="addItem">Add an item</button>
             <input type="checkbox" v-model="compact"/> Compact
             <br/>
-            <grid-layout :layout="layout"
+            <grid-layout v-model:layout="layout"
                          :col-num="12"
                          :row-height="30"
                          :is-draggable="draggable"
